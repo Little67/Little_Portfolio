@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Krutibas Dwibedi | Electrical Engineering Student",
   description: "Portfolio of Krutibas Dwibedi, an Electrical Engineer at Powergird Corporation of India Limited.",
+  icons: {
+    icon: "/favicon-v4.png",
+  },
 };
 
 export default function RootLayout({
